@@ -1,3 +1,4 @@
 _gen/
 bin
 *.exe
+.DS_Store/
