@@ -1,0 +1,49 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/ovM06PdF3M8wvKb06i4sjW3xoww.jpg",
+            "id": 76600,
+            "title": "Avatar: The Way of Water",
+            "original_language": "en",
+            "original_title": "Avatar: The Way of Water",
+            "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+            "poster_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                878,
+                12,
+                28
+            ],
+            "popularity": 10224.28,
+            "release_date": "2022-12-14",
+            "video": false,
+            "vote_average": 7.743,
+            "vote_count": 6308
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/i8dshLvq4LE3s0v8PrkDdUyb1ae.jpg",
+            "id": 603692,
+            "title": "John Wick: Chapter 4",
+            "original_language": "en",
+            "original_title": "John Wick: Chapter 4",
+            "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+            "poster_path": "/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+            "media_type": "movie",
+            "genre_ids": [
+                28,
+                53,
+                80
+            ],
+            "popularity": 2569.508,
+            "release_date": "2023-03-22",
+            "video": false,
+            "vote_average": 8.162,
+            "vote_count": 621
+        }
+    ],
+    "total_pages": 1000,
+    "total_results": 20000
+}

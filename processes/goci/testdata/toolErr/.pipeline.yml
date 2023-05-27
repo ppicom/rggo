@@ -1,0 +1,52 @@
+pipeline:
+  
+  - name: go build
+    exe: go
+    message: "Go Build: SUCCESS"
+    args:
+      - build
+      - "."
+      - errors
+
+  - name: go test
+    exe: go
+    message: "Go Test: SUCCESS"
+    args:
+      - test
+      - -v
+
+  - name: go fmt
+    exe: gofmt
+    message: "Gofmt: SUCCESS"
+    exception: true
+    args:
+      - "-l"
+      - "."
+
+  - name: "golangci-lint"
+    exe: "golangci-lint"
+    message: "Golangci-lint: SUCCESS"
+    timeout: 10
+    args:
+      - "run"
+      - "."
+      
+  - name: "gocyclo"
+    exe: "gocyclo"
+    message: "Gocyclo: SUCCESS"
+    exception: true
+    args:
+      - "-ignore"
+      - "_test"
+      - "-over"
+      - "9"
+      - "."
+
+  - name: "git push"
+    exe: "git"
+    message: "Git Push: SUCCESS"
+    timeout: 10
+    args:
+      - "push"
+      - "origin"
+      - "main"
